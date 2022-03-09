@@ -10,6 +10,7 @@ public class RepartidorId extends Identity {
     }
 
     public RepartidorId(){}
+
     public static RepartidorId of(String valor) {
         return new RepartidorId(valor);
     }

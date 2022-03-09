@@ -17,7 +17,7 @@ public class CrearOrdenUseCase extends UseCase<RequestCommand<CrearOrden>, Respo
         if(transporte.ordenes().values().size() >= 10){
             throw new BusinessException(command.getTransporteId().value(), "No se puede agregar mas de 10 ordenes por transportador");
         }
-        transporte.crearOrden(command.getOrdenId(), command.getRemitente(),command.getDestinatario());
+        transporte.crearOrden(command.getOrdenId(), command.getRemitente(),command.getDestinatario(),command.getPaquete());
         emit().onResponse(new ResponseEvents(transporte.getUncommittedChanges()));
     }
 }

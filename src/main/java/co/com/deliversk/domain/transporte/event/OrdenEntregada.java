@@ -5,6 +5,7 @@ import co.com.sofka.domain.generic.DomainEvent;
 
 public class OrdenEntregada extends DomainEvent {
     private final OrdenId ordenId;
+    
 
     public OrdenEntregada(OrdenId ordenId) {
         super("transporte.entregarorden");
@@ -14,4 +15,5 @@ public class OrdenEntregada extends DomainEvent {
     public OrdenId getOrdenId() {
         return ordenId;
     }
+    
 }

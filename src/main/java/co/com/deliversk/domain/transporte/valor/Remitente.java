@@ -9,12 +9,14 @@ public class Remitente implements ValueObject<Remitente.Props> {
     private final String nombre;
     private final String apellido;
     private final String identidad;
+    private final String direccion;
 
-    public Remitente(String nombre, String apellido, String identidad) {
+    public Remitente(String nombre, String apellido, String identidad, String direccion) {
         //TODO: validaciones
         this.nombre = Objects.requireNonNull(nombre);
         this.apellido = Objects.requireNonNull(apellido);
         this.identidad = Objects.requireNonNull(identidad);
+        this.direccion = Objects.requireNonNull(direccion);
     }
 
     @Override
@@ -35,6 +37,11 @@ public class Remitente implements ValueObject<Remitente.Props> {
             public String identidad() {
                 return identidad;
             }
+
+            @Override
+            public String direccion() {
+                return direccion;
+            }
         };
     }
 
@@ -42,5 +49,6 @@ public class Remitente implements ValueObject<Remitente.Props> {
         String nombre();
         String apellido();
         String identidad();
+        String direccion();
     }
 }

@@ -11,6 +11,7 @@ public class EntregarOrden extends Command {
     public EntregarOrden(OrdenId ordenId, TransporteId transporteId) {
         this.ordenId = ordenId;
         this.transporteId = transporteId;
+        
     }
 
     public TransporteId getTransporteId() {
@@ -20,4 +21,6 @@ public class EntregarOrden extends Command {
     public OrdenId getOrdenId() {
         return ordenId;
     }
+
+   
 }

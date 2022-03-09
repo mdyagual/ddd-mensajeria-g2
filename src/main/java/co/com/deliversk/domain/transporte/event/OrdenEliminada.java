@@ -1,5 +1,5 @@
 package co.com.deliversk.domain.transporte.event;
 
-public class ConductorEliminado {
+public class OrdenEliminada {
     
 }

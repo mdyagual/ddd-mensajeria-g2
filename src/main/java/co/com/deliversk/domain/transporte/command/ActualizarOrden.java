@@ -1,5 +1,5 @@
 package co.com.deliversk.domain.transporte.command;
 
-public class ActualizarPaquete {
+public class ActualizarOrden {
     
 }

@@ -1,10 +1,11 @@
 package co.com.deliversk.usecases;
 
+import co.com.deliversk.domain.transporte.Transporte;
+import co.com.deliversk.domain.transporte.command.CrearTransporte;
 import co.com.sofka.business.generic.UseCase;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.business.support.ResponseEvents;
-import co.com.deliversk.mensajeria.Transporte;
-import co.com.deliversk.mensajeria.command.CrearTransporte;
+
 
 public class CrearTransporteUseCase extends UseCase<RequestCommand<CrearTransporte>, ResponseEvents> {
     @Override

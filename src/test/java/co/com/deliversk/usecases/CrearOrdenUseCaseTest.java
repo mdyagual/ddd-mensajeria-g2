@@ -1,13 +1,13 @@
 package co.com.deliversk.usecases;
 
+import co.com.deliversk.domain.transporte.OrdenCreada;
+import co.com.deliversk.domain.transporte.command.CrearOrden;
+import co.com.deliversk.domain.transporte.event.TransporteCreado;
+import co.com.deliversk.domain.transporte.valor.*;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.deliversk.mensajeria.OrdenCreada;
-import co.com.deliversk.mensajeria.command.CrearOrden;
-import co.com.deliversk.mensajeria.event.TransporteCreado;
-import co.com.deliversk.mensajeria.valor.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

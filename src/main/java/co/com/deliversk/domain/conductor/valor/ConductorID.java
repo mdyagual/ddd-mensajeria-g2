@@ -4,7 +4,7 @@ import co.com.sofka.domain.generic.Identity;
 
 public class ConductorID extends Identity {
 
- /*   private ConductorID(String valor) {
+    private ConductorID(String valor) {
         super(valor);
     }
 
@@ -12,5 +12,5 @@ public class ConductorID extends Identity {
 
     public static ConductorID of(String valor) {
         return new ConductorID(valor);
-    }*/
+    }
 }

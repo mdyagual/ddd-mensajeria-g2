@@ -1,6 +1,7 @@
 package co.com.deliversk.domain.conductor;
 
 import co.com.deliversk.domain.conductor.event.ConductorCreado;
+import co.com.deliversk.domain.conductor.event.DatosActualizadosDelConductor;
 import co.com.sofka.domain.generic.EventChange;
 
 public class ConductorEventChange extends EventChange {
@@ -9,5 +10,9 @@ public class ConductorEventChange extends EventChange {
         apply((ConductorCreado event) -> {
             conductor.datos = event.getDatos();
         } );
+
+        apply((DatosActualizadosDelConductor event) -> {
+            conductor.datos = event.getDatos();
+        });
     }
 }

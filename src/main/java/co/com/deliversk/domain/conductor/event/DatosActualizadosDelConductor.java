@@ -4,11 +4,11 @@ package co.com.deliversk.domain.conductor.event;
 import co.com.deliversk.domain.conductor.valor.Datos;
 import co.com.sofka.domain.generic.DomainEvent;
 
-public class ConductorCreado extends DomainEvent {
+public class DatosActualizadosDelConductor extends DomainEvent {
     private final Datos datos;
 
-    public ConductorCreado(Datos datos) {
-        super("deliversk.conductor.conductorCreado");
+    public DatosActualizadosDelConductor(Datos datos) {
+        super("deliversk.conductor.datosActualizados");
         this.datos = datos;
     }
 

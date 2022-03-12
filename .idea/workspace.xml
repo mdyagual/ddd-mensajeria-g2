@@ -6,43 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="0fb21bd0-4d0b-4cfe-84fe-4ae74cfc6554" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/valor/ConductorID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/valor/ConductorID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearOrdenUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearOrdenUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearTransporteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearTransporteUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearOrdenUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearOrdenUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearTransporteUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearTransporteUseCaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Orden.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Orden.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/OrdenCreada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/OrdenCreada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Transporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Transporte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/TransporteEventChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/TransporteEventChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearOrden.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearOrden.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearTransporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearTransporte.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/EntregarOrden.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/EntregarOrden.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/OrdenEntregada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/OrdenEntregada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/TransporteCreado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/TransporteCreado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/ConductorId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/ConductorId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Dato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$Props.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado$Fase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado$Fase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Fecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Fecha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/OrdenId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/OrdenId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$Props.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$Props.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$Props.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/TransporteId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/TransporteId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearOrdenUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearOrdenUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearTransporteUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearTransporteUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearOrdenUseCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearOrdenUseCaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearTransporteUseCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearTransporteUseCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/Conductor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/Conductor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/ConductorEventChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/ConductorEventChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/event/ConductorCreado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/event/ConductorCreado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/valor/Datos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/valor/Datos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearConductorUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearConductorUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/Conductor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/Conductor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/ConductorEventChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/ConductorEventChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/event/ConductorCreado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/event/ConductorCreado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearConductorUseCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearConductorUseCaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="267xISGP2sKp9hVfYsMpGSKugzk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,7 +57,69 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CrearConductorUseCaseTest.crearConductor">
+    <configuration name="ActualizarDatosUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.deliversk.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.deliversk.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.deliversk.usecases.ActualizarDatosUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActualizarDatosUseCaseTest.actualizarDatos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.deliversk.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.deliversk.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.deliversk.usecases.ActualizarDatosUseCaseTest" />
+      <option name="METHOD_NAME" value="actualizarDatos" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActualizarDatosUseCaseTest.actualizarDatosOfConductor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.deliversk.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.deliversk.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.deliversk.usecases.ActualizarDatosUseCaseTest" />
+      <option name="METHOD_NAME" value="actualizarDatosOfConductor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrearConductorUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.deliversk.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.deliversk.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.deliversk.usecases.CrearConductorUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrearConductorUseCaseTest.crearConductor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ventas" />
       <extension name="coverage">
@@ -102,6 +139,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CrearConductorUseCaseTest.crearConductor" />
+        <item itemvalue="JUnit.ActualizarDatosUseCaseTest.actualizarDatosOfConductor" />
+        <item itemvalue="JUnit.ActualizarDatosUseCaseTest" />
+        <item itemvalue="JUnit.ActualizarDatosUseCaseTest.actualizarDatos" />
+        <item itemvalue="JUnit.CrearConductorUseCaseTest" />
       </list>
     </recent_temporary>
   </component>

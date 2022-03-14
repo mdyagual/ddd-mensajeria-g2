@@ -1,6 +1,6 @@
 package co.com.deliversk.usecases;
 
-import co.com.deliversk.domain.transporte.OrdenCreada;
+import co.com.deliversk.domain.transporte.event.OrdenCreada;
 import co.com.deliversk.domain.transporte.command.CrearOrden;
 import co.com.deliversk.domain.transporte.event.TransporteCreado;
 import co.com.deliversk.domain.transporte.valor.*;

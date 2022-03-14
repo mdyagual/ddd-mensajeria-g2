@@ -1,4 +1,4 @@
-package co.com.deliversk.domain.transporte;
+package co.com.deliversk.domain.transporte.event;
 
 import co.com.deliversk.domain.transporte.valor.Destinatario;
 import co.com.deliversk.domain.transporte.valor.OrdenId;

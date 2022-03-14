@@ -1,5 +1,6 @@
 package co.com.deliversk.domain.transporte;
 
+import co.com.deliversk.domain.transporte.event.OrdenCreada;
 import co.com.deliversk.domain.transporte.event.OrdenEntregada;
 import co.com.deliversk.domain.transporte.event.TransporteCreado;
 import co.com.deliversk.domain.transporte.valor.*;

@@ -1,6 +1,4 @@
-package co.com.deliversk.usecases;
 
-import co.com.deliversk.domain.Repartidor.Repartidor;
 import co.com.deliversk.domain.Repartidor.command.CrearRepartidor;
 import co.com.deliversk.domain.Repartidor.event.RepartidorCreado;
 import co.com.deliversk.domain.Repartidor.valor.Datos;

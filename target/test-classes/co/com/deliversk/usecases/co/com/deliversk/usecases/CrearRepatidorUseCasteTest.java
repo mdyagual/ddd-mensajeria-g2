@@ -1,25 +1,26 @@
 package co.com.deliversk.usecases;
 
+import co.com.deliversk.domain.Repartidor.Repartidor;
 import co.com.deliversk.domain.Repartidor.command.CrearRepartidor;
 import co.com.deliversk.domain.Repartidor.event.RepartidorCreado;
 import co.com.deliversk.domain.Repartidor.valor.Datos;
 import co.com.deliversk.domain.Repartidor.valor.RepartidorId;
+import co.com.deliversk.usecases.CrearRepartidorUseCase;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class CrearRepartidorUseCaseTest {
+public class CrearRepatidorUseCasteTest {
 
     @Test
-    @DisplayName("Test crearRepartidor")
-    void CrearRepartidor(){
+    @DisplayName("Test CrearRepartidor")
+    void crarRepartidor(){
         RepartidorId repartidorId = new RepartidorId();
         Datos datos = new Datos("Mariana", "Lopez", 20);
 
-        //act
-        var command = new CrearRepartidor(repartidorId,datos);
+        var command = new CrearRepartidor(repartidorId, datos);
         var usecase = new CrearRepartidorUseCase();
 
         var events = UseCaseHandler.getInstance()
@@ -29,11 +30,7 @@ class CrearRepartidorUseCaseTest {
 
         var event = (RepartidorCreado)events.get(0);
         Assertions.assertEquals("deliversk.repartidor.repartidorcreado", event.type);
-        Assertions.assertEquals("Mariana",event.getDatos().value().nombres());
-        Assertions.assertEquals("Lopez",event.getDatos().value().apellidos());
-        Assertions.assertEquals(20,event.getDatos().value().edad());
-
+        Assertions.assertEquals("Mariana", event.getDatos().value().nombres());
     }
-
 
 }

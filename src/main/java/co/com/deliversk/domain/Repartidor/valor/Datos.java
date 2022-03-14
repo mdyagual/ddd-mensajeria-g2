@@ -32,17 +32,17 @@ public class Datos implements ValueObject<Datos.Props> {
         return new Props() {
             @Override
             public String nombres() {
-                return null;
+                return nombres;
             }
 
             @Override
             public Spring apellidos() {
-                return null;
+                return apellidos();
             }
 
             @Override
             public int edad() {
-                return 0;
+                return edad;
             }
         };
     }

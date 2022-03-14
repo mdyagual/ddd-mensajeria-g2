@@ -7,7 +7,7 @@ public class OrdenEntregada extends DomainEvent {
     private final OrdenId ordenId;
 
     public OrdenEntregada(OrdenId ordenId) {
-        super("transporte.entregarorden");
+        super("transporte.ordenentregada");
         this.ordenId = ordenId;
     }
 

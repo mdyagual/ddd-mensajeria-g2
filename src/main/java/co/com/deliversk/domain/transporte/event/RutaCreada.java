@@ -7,7 +7,7 @@ public class RutaCreada extends DomainEvent{
     private final String ciudad;
 
     public RutaCreada(String ciudad, String direccion) {
-        super("transporte.rutaagregada");
+        super("transporte.rutacreada");
         this.ciudad = ciudad;
         this.direccion = direccion;
     }

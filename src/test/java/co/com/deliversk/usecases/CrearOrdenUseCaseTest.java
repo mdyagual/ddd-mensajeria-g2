@@ -1,5 +1,6 @@
 package co.com.deliversk.usecases;
 
+
 import co.com.deliversk.domain.transporte.event.OrdenCreada;
 import co.com.deliversk.domain.transporte.command.CrearOrden;
 import co.com.deliversk.domain.transporte.event.TransporteCreado;
@@ -8,7 +9,6 @@ import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.domain.generic.DomainEvent;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -17,9 +17,6 @@ import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.List;
-import java.util.logging.Handler;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
 class CrearOrdenUseCaseTest {

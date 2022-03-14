@@ -6,11 +6,9 @@ import co.com.deliversk.domain.transporte.valor.ConductorId;
 import co.com.deliversk.domain.transporte.valor.TransporteId;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class CrearTransporteUseCaseTest {
 

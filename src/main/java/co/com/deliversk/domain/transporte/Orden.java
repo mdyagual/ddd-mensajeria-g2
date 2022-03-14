@@ -32,6 +32,24 @@ public class Orden extends Entity<OrdenId> {
         }
     }
 
+    public void cambiarRemitente(Remitente remitente){
+        //Regla de dominio
+        if(this.estado.value().equals(Estado.Fase.NO_ENTREGADO)){
+            this.remitente = remitente;
+        } else {
+            throw new IllegalArgumentException("No se puede cambiar el remitente");
+        }
+    }
+
+    public void cambiarPaquete(Paquete paquete){
+        //Regla de dominio
+        if(this.estado.value().equals(Estado.Fase.NO_ENTREGADO)){
+            this.paquete = paquete;
+        } else {
+            throw new IllegalArgumentException("No se puede cambiar el paquete");
+        }
+    }
+
     public Remitente remitente() {
         return remitente;
     }

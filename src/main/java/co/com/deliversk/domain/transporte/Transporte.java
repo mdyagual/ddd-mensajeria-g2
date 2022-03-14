@@ -1,5 +1,8 @@
 package co.com.deliversk.domain.transporte;
 
+import co.com.deliversk.domain.transporte.event.DestinatarioOrdenActualizado;
+import co.com.deliversk.domain.transporte.event.RemitenteOrdenActualizado;
+import co.com.deliversk.domain.transporte.event.PaqueteOrdenActualizado;
 import co.com.deliversk.domain.transporte.event.OrdenCreada;
 import co.com.deliversk.domain.transporte.event.OrdenEntregada;
 import co.com.deliversk.domain.transporte.event.TransporteCreado;
@@ -41,6 +44,17 @@ public class Transporte extends AggregateEvent<TransporteId> {
         appendChange(new OrdenEntregada(ordenId)).apply();
     }
 
+    public void actualizarDestinatario(OrdenId ordenId,Destinatario destinatario){
+        appendChange(new DestinatarioOrdenActualizado(ordenId,destinatario)).apply();
+    }
+
+    public void actualizarRemitente(OrdenId ordenId,Remitente remitente){
+        appendChange(new RemitenteOrdenActualizado(ordenId,remitente)).apply();
+    }
+
+    public void actualizarPaquete(OrdenId ordenId,Paquete paquete){
+        appendChange(new PaqueteOrdenActualizado(ordenId,paquete)).apply();
+    }
 
     public Map<String,Orden> ordenes() {
         return ordenes;

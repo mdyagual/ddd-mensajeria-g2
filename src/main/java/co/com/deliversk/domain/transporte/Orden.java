@@ -8,11 +8,13 @@ public class Orden extends Entity<OrdenId> {
     private Destinatario destinatario;
     private Estado estado;
     private Fecha fecha;
+    private Paquete paquete;
 
-    public Orden(OrdenId ordenId, Remitente remitente, Destinatario destinatario) {
+    public Orden(OrdenId ordenId, Remitente remitente, Destinatario destinatario, Paquete paquete) {
         super(ordenId);
         this.remitente = remitente;
         this.destinatario = destinatario;
+        this.paquete = paquete;
         this.fecha = new Fecha();
         this.estado = new Estado(Estado.Fase.NO_ENTREGADO);
     }
@@ -44,5 +46,9 @@ public class Orden extends Entity<OrdenId> {
 
     public Fecha fecha() {
         return fecha;
+    }
+
+    public Paquete paquete(){
+        return paquete;
     }
 }

@@ -1,13 +1,14 @@
 package co.com.deliversk.usecases;
 
+import co.com.deliversk.domain.transporte.event.OrdenCreada;
+import co.com.deliversk.domain.transporte.command.CrearOrden;
+import co.com.deliversk.domain.transporte.event.TransporteCreado;
+import co.com.deliversk.domain.transporte.valor.*;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.repository.DomainEventRepository;
 import co.com.sofka.business.support.RequestCommand;
 import co.com.sofka.domain.generic.DomainEvent;
-import co.com.deliversk.mensajeria.OrdenCreada;
-import co.com.deliversk.mensajeria.command.CrearOrden;
-import co.com.deliversk.mensajeria.event.TransporteCreado;
-import co.com.deliversk.mensajeria.valor.*;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -33,7 +34,8 @@ class CrearOrdenUseCaseTest {
         OrdenId ordenId = OrdenId.of("ffffff");
         Remitente remitente = new Remitente("Raul", "Alzate", "xxxxxx");
         Destinatario destinatario = new Destinatario("Pedro", "Sanchez", "fffff");
-        var command = new CrearOrden( transporteId,  ordenId,  remitente,  destinatario);
+        Paquete paquete = new Paquete(50.0, "YYYYYY");
+        var command = new CrearOrden( transporteId,  ordenId,  remitente,  destinatario, paquete);
 
         var usecase = new CrearOrdenUseCase();
         Mockito.when(repository.getEventsBy("xxxx")).thenReturn(history());
@@ -54,17 +56,15 @@ class CrearOrdenUseCaseTest {
     }
 
     private List<DomainEvent> history() {
+        TransporteId transporteId = TransporteId.of("xxxx");
+        OrdenId ordenId = OrdenId.of("ffffff");
+        Remitente remitente = new Remitente("Raul", "Alzate", "xxxxxx");
+        Destinatario destinatario = new Destinatario("Pedro", "Sanchez", "fffff");
+        Paquete paquete = new Paquete(50.0, "YYYYYY");
         return List.of(
                 new TransporteCreado(ConductorId.of("xxxx")),
-                new OrdenCreada(OrdenId.of("1"), null, null),
-                new OrdenCreada(OrdenId.of("2"), null, null),
-                new OrdenCreada(OrdenId.of("3"), null, null),
-                new OrdenCreada(OrdenId.of("4"), null, null),
-                new OrdenCreada(OrdenId.of("5"), null, null),
-                new OrdenCreada(OrdenId.of("6"), null, null),
-                new OrdenCreada(OrdenId.of("7"), null, null),
-                new OrdenCreada(OrdenId.of("8"), null, null),
-                new OrdenCreada(OrdenId.of("10"), null, null)
+                new OrdenCreada(ordenId, remitente, destinatario,paquete)
+                
         );
     }
 

@@ -1,5 +1,6 @@
 package co.com.deliversk.domain.transporte;
 
+import co.com.deliversk.domain.transporte.event.OrdenCreada;
 import co.com.deliversk.domain.transporte.event.OrdenEntregada;
 import co.com.deliversk.domain.transporte.event.TransporteCreado;
 import co.com.deliversk.domain.transporte.valor.*;
@@ -10,8 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Transporte extends AggregateEvent<TransporteId> {
-    protected Map<String, Orden> ordenes;
-    protected List<Paquete> paquetes;
+    protected Map<String,Orden> ordenes;
     protected List<Ruta> rutas;
     protected ConductorId conductorId;
 
@@ -33,8 +33,8 @@ public class Transporte extends AggregateEvent<TransporteId> {
         return transporte;
     }
 
-    public void crearOrden(OrdenId ordenId, Remitente remitente, Destinatario destinatario){
-        appendChange(new OrdenCreada(ordenId, remitente, destinatario)).apply();
+    public void crearOrden(OrdenId ordenId, Remitente remitente, Destinatario destinatario, Paquete paquete){
+        appendChange(new OrdenCreada(ordenId, remitente, destinatario, paquete)).apply();
     }
 
     public void entregarOrden(OrdenId ordenId){
@@ -42,7 +42,7 @@ public class Transporte extends AggregateEvent<TransporteId> {
     }
 
 
-    public Map<String, Orden> ordenes() {
+    public Map<String,Orden> ordenes() {
         return ordenes;
     }
 }

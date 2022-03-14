@@ -1,11 +1,12 @@
 package co.com.deliversk.usecases;
 
+import co.com.deliversk.domain.transporte.command.CrearTransporte;
+import co.com.deliversk.domain.transporte.event.TransporteCreado;
+import co.com.deliversk.domain.transporte.valor.ConductorId;
+import co.com.deliversk.domain.transporte.valor.TransporteId;
 import co.com.sofka.business.generic.UseCaseHandler;
 import co.com.sofka.business.support.RequestCommand;
-import co.com.deliversk.mensajeria.command.CrearTransporte;
-import co.com.deliversk.mensajeria.event.TransporteCreado;
-import co.com.deliversk.mensajeria.valor.ConductorId;
-import co.com.deliversk.mensajeria.valor.TransporteId;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

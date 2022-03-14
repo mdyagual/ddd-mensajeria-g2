@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="613e4889-e7aa-4da6-88e0-1b843cabdb91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_com_sofka_business_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__co_com_sofka_domain_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/Conductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/ConductorEventChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/comando/ActualizarDatosDelConductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/comando/CrearConductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/event/ConductorCreado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/event/DatosActualizadosDelConductor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/valor/ConductorID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/domain/conductor/valor/Datos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/ActualizarDatosDelConductorUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearConductorUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/ActualizarDatosUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearConductorUseCaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/Conductor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/ConductorEventChange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/comando/ActualizarDatosDelConductor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/comando/CrearConductor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/event/ConductorCreado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/event/DatosActualizadosDelConductor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/ConductorID.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos$Props.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/conductor/valor/Datos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/ActualizarDatosDelConductorUseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearConductorUseCase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/ActualizarDatosUseCaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearConductorUseCaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ventas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/eb6e94bd481a03c2069d0e09c7d9cf0e74d8f21b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearOrdenUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearOrdenUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearTransporteUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/deliversk/usecases/CrearTransporteUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearOrdenUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearOrdenUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearTransporteUseCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/deliversk/usecases/CrearTransporteUseCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Orden.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Orden.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/OrdenCreada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/OrdenCreada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Transporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/Transporte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/TransporteEventChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/TransporteEventChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearOrden.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearOrden.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearTransporte.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/CrearTransporte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/EntregarOrden.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/command/EntregarOrden.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/OrdenEntregada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/OrdenEntregada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/TransporteCreado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/event/TransporteCreado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/ConductorId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/ConductorId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Dato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario$Props.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Destinatario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado$Fase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado$Fase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Estado.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Fecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Fecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/OrdenId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/OrdenId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete$Props.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Paquete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente$Props.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Remitente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$Props.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta$Props.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/Ruta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/TransporteId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/domain/transporte/valor/TransporteId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearOrdenUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearOrdenUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearTransporteUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/co/com/deliversk/usecases/CrearTransporteUseCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearOrdenUseCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearOrdenUseCaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearTransporteUseCaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/com/deliversk/usecases/CrearTransporteUseCaseTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="26MNRd8d0Kwhj4rH46x4EGRq0NB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.CrearConductorUseCaseTest">
+    <configuration name="CrearConductorUseCaseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.deliversk.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.deliversk.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.deliversk.usecases.CrearConductorUseCaseTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrearTransporteUseCaseTest.crearTranposte" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ventas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.com.deliversk.usecases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.com.deliversk.usecases" />
+      <option name="MAIN_CLASS_NAME" value="co.com.deliversk.usecases.CrearTransporteUseCaseTest" />
+      <option name="METHOD_NAME" value="crearTranposte" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CrearConductorUseCaseTest" />
+        <item itemvalue="JUnit.CrearTransporteUseCaseTest.crearTranposte" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="613e4889-e7aa-4da6-88e0-1b843cabdb91" name="Changes" comment="" />
+      <created>1647229513085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647229513085</updated>
+    </task>
+    <servers />
+  </component>
+</project>

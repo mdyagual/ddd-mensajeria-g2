@@ -9,5 +9,8 @@
         <module name="ventas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ventas" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -2,11 +2,11 @@ package co.com.deliversk.domain.transporte.command;
 
 import co.com.sofka.domain.generic.Command;
 
-public class AgregarRuta extends Command{
+public class CrearRuta extends Command{
     private final String direccion;
     private final String ciudad;
 
-    public AgregarRuta(String ciudad, String direccion) {
+    public CrearRuta(String ciudad, String direccion) {
         this.ciudad = ciudad;
         this.direccion = direccion;
     }
